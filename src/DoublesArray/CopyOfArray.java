@@ -27,6 +27,7 @@ public class CopyOfArray {
             arr[i] -= 5;  // Вычитаем 5 из каждого элемента
         }
 
+
         System.out.println("После изменения в методе modifyOriginal (исходный): " + Arrays.toString(arr));
     }
 }
